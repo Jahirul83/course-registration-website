@@ -1,14 +1,20 @@
-import { useState } from 'react'
+
 import './App.css'
 import Header from './components/Header/Header'
+import Courses from './components/Courses/Courses'
+import Selects from './components/Selects/Selects'
 
 function App() {
 
   return (
     <>
-
-      <h1>Vite + React</h1>
-      <Header></Header>
+      <div>
+        <Header></Header>
+        <div className='md:flex'>
+          <Courses></Courses>
+          <Selects></Selects>
+        </div>
+      </div>
     </>
   )
 }

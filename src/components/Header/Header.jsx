@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
 Header.propTypes = {
@@ -6,9 +5,10 @@ Header.propTypes = {
 };
 
 function Header() {
+
     return (
-        <div>
-            <h3 className='text-5xl'>Header component</h3>
+        <div className='text-center'>
+            <h3 className='text-5xl'>Course Registration</h3>
         </div>
     );
 }
