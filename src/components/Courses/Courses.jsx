@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import { useEffect, useState } from 'react'
 import Course from '../Course/Course';
 
-const Courses = () => {
+const Courses = ({handleSelectedCourses}) => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
@@ -15,13 +15,20 @@ const Courses = () => {
             <h3>Courses: {courses.length}</h3>
             <div className='grid grid-cols-3 gap-2'>
                 {
-                    courses.map((course) => <Course key={course.id} course={course}></Course>)
+                    courses.map((course) => <Course 
+                    key={course.id} 
+                    course={course}
+                    handleSelectedCourses={handleSelectedCourses}
+                    
+                    ></Course>)
                 }
             </div>
         </div>
     )
 }
 
-Courses.propTypes = {}
+Courses.propTypes = {
+    handleSelectedCourses: PropTypes.func
+}
 
 export default Courses
