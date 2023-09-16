@@ -12,7 +12,6 @@ const Courses = ({handleSelectedCourses}) => {
     }, [])
     return (
         <div>
-            <h3>Courses: {courses.length}</h3>
             <div className='grid grid-cols-3 gap-2'>
                 {
                     courses.map((course) => <Course 

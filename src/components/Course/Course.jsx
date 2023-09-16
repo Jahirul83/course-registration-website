@@ -6,9 +6,9 @@ const Course = ({ course, handleSelectedCourses }) => {
 
     const { image, title, details, credit, price } = course;
     return (
-        <div className='w-11/12 bg-slate-200 p-4 m-4 rounded-xl'>
+        <div className='w-11/12 bg-slate-200 p-3 m-4 rounded-xl'>
             <img className='w-full' src={image} alt="" />
-            <h3 className='text-2xl font-bold'>{title}</h3>
+            <h3 className='text-xl font-bold'>{title}</h3>
             <p className='my-2 text-sm'>{details}</p>
             <div className='flex justify-between'>
                 <p className='text-sm'>$ price: {price}</p>
