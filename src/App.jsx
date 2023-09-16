@@ -30,7 +30,7 @@ function App() {
       });
       // console.log(count)
       if (count > 20) {
-        toast('You do not have enough credit to select this course');
+        toast('You cannot select more than 20 credits');
       }
       else {
 

@@ -5,7 +5,7 @@
         "title": "Introduction to C Programming",
         "credit": "1",
         "price": "15000",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Learn the fundamentals of the C programming language, including syntax, data types, and basic programming concepts. Suitable for beginners."
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "title": "Introduction to Algorithms",
         "credit": "2",
         "price": "25000",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Explore the world of algorithms, algorithm analysis, and problem-solving strategies. Ideal for computer science enthusiasts."
     },
     {
         "id": "3",
@@ -21,7 +21,7 @@
         "title": "Introduction to C++ for DSA",
         "credit": "10",
         "price": "10000",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Master the C++ programming language and its applications in Data Structures and Algorithms (DSA). A comprehensive course."
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@
         "title": "Basic Data Structures",
         "credit": "5",
         "price": "35000",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Deep dive into fundamental data structures such as arrays, linked lists, stacks, and queues. Essential for software developers."
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@
         "title": "Introduction to OOP Python",
         "credit": "5",
         "price": "19000",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Learn Python-based OOP principles, encapsulation, inheritance, and polymorphism. Perfect for aspiring Python developers."
     },
     {
         "id": "6",
@@ -45,7 +45,7 @@
         "title": "Software Engineering",
         "credit": "2",
         "price": "23000",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Explore the software development life cycle, project management, and best practices in software engineering."
     },
     {
         "id": "7",
@@ -53,7 +53,7 @@
         "title": "AWS, Cloud Computing",
         "credit": "5",
         "price": "35000",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Dive into cloud computing, AWS services, and cloud infrastructure management. Gain in-demand cloud skills."
     },
     {
         "id": "8",
@@ -61,7 +61,7 @@
         "title": "Database (MySQL)",
         "credit": "5",
         "price": "19000",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Master the art of database design, SQL queries, and database administration using MySQL."
     },
     {
         "id": "9",
@@ -69,6 +69,6 @@
         "title": "Problem-Solving Part",
         "credit": "2",
         "price": "23000",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Enhance your problem-solving skills, algorithmic thinking, and programming logic. Suitable for coding enthusiasts."
     }
 ]
