@@ -12,6 +12,7 @@ function App() {
   const [selects, setSelects] = useState([]);
   const [remaining, setRemaining] = useState(20);
   const [totalCredit, setTotalCredit] = useState(0);
+  const [totalMoney, setTotalMoney] = useState(0);
 
   const handleSelectedCourses = course => {
 
@@ -39,6 +40,10 @@ function App() {
         setSelects(newSelectedCourse);
         setRemaining(totalRemaining);
         setTotalCredit(count);
+
+
+        const newTotalMoney = parseInt(course.price) + totalMoney;
+        setTotalMoney(newTotalMoney);
       }
     }
 
@@ -51,7 +56,7 @@ function App() {
         <Header></Header>
         <div className='md:flex'>
           <Courses handleSelectedCourses={handleSelectedCourses}></Courses>
-          <Selects totalCredit={totalCredit} remaining={remaining} selects={selects}></Selects>
+          <Selects totalMoney={totalMoney} totalCredit={totalCredit} remaining={remaining} selects={selects}></Selects>
 
           {/* toast */}
           <ToastContainer

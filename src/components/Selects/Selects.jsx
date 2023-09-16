@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'
 import Selected from '../Selected/Selected'
 
-const Selects = ({ selects, remaining, totalCredit }) => {
+const Selects = ({totalMoney, selects, remaining, totalCredit }) => {
     return (
-        <div className='w-full md:w-11/12 lg:w-1/2 m-2'>
+        <div className='w-full md:w-1/2 lg:w-1/2 m-2'>
             <div className='bg-white p-2 rounded-xl'>
 
-                <div className='border-b-2 bg-w'>
+                <div className='border-b-2 bg-white'>
 
-                    <h3 className='text-purple-400'>Credit Hour Remaining {remaining} hrs</h3>
+                    <h3 className='text-blue-600 font-semibold'>Credit Hour Remaining {remaining} hr</h3>
                 </div>
                 <div className='border-b-2'>
                     <h3 className='text-xl font-bold mb-8 text-center'>Course Name</h3>
@@ -21,8 +21,11 @@ const Selects = ({ selects, remaining, totalCredit }) => {
                         ></Selected>)
                     }
                 </div>
-                <div className='m-6'>
+                <div className='my-6 border-b-2'>
                     Total credit Hour: {totalCredit}
+                </div>
+                <div className='my-6'>
+                    Total Price: {totalMoney} USD
                 </div>
             </div>
 
@@ -33,7 +36,8 @@ const Selects = ({ selects, remaining, totalCredit }) => {
 Selects.propTypes = {
     selects: PropTypes.object,
     remaining: PropTypes.number,
-    totalCredit: PropTypes.number
+    totalCredit: PropTypes.number,
+    totalMoney: PropTypes.number
 
 }
 
