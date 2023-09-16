@@ -1,11 +1,12 @@
-# React + Vite
+# Course-Registration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project features:
+  - Data is dynamic fetch from local json file, similar in look different in data.
+  - Shows selected items in list.
+  - Prevent any duplication in the selected list and give us a warning toast.
 
-Currently, two official plugins are available:
+# managed the state in your assignment project:
+- In this project, I managed state using the "useState" hook. Data is passed between components by sending and receiving objects and functions from parent to child components. These objects are destructured and dynamically used in the UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-#   m y - c o u r s e - r o s t e r - J a h i r u l 8 3
  
  
